@@ -1,6 +1,9 @@
 <p>Clone master repo</p>
 <p>Use "update composer" command to install dependencies</p>
 <p>Create an alias for your laravel instance for example "http://podcast.test"</p>
+<p>Create database and use it in your .env file</p>
+<p>Setup your db for phpunit also in /phpunit.xml</p>
+<p>Run ./vendor/bin/phpunit for testing</p>
 <p>Run "php artisan migrate" command to create tables</p>
 <p>Run "php artisan db:seed --class=PodcastTableSeeder" to create dummy records</p>
 
