@@ -62,6 +62,9 @@ class PodcastController extends Controller
 
 			$data['image'] = $image_name;
 		}
+		else {
+			$data['image'] = null;
+		}
 
 		$podcast = Podcast::where('name', $data['name'])->get()->first();
 		if (empty($podcast)) {
